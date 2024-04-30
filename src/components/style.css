@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box; 
+   }
+   body{
+    background-color: darkgrey;
+   }
+   h2{
+    color: darkslateblue;
+   }
+   .myForm {
+     display: flex;
+     background-color: beige;
+     border-radius: 3px;
+     padding: 1.8em;
+     flex-direction: column;
+   }
+   .row {
+    display: flex;
+    justify-content: center;
+  }
+   .contact {
+        flex: 1; 
+        order: 1;
+        margin-right: 2em; 
+   }
+   .contact input {
+     width: 100%;
+   }
+   .contact input {
+     padding: 1em;
+     margin-bottom: 1em;
+   }
+
+   .contact-btn {
+    flex: 1; 
+    order: 1;
+    margin-right: 2em; 
+}
+   .contact-btn button {
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-right: 2em; 
+  }
+   .contact-btn button {
+    background: gray;
+    color: white;
+    border: 0;
+   
+   }
+
+   table, tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-radius: 5px;
+
+   }
